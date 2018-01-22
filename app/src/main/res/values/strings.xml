@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dog Pictures</string>
+    <string name="dog_breed">THE DOG BREED: %s</string>
+    <string name="choose_dog_breed">Please choose the dog breed</string>
+    <string name="get_another_image">Get Another Image</string>
+
+    <string name="exit">Exit</string>
+    <string name="okey">Okey</string>
+    <string name="network_error">Network Error</string>
+    <string name="required_network_connection">Internet connection is required to continue the application</string>
+</resources>

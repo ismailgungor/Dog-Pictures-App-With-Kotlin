@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:gravity="center">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_single_dog_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp5"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/dp5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/iv_single_dog_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp150"
+                android:scaleType="centerCrop"
+                android:src="@drawable/empty_iimage"/>
+
+            <TextView
+                android:id="@+id/tv_single_dog_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_marginBottom="@dimen/dp5"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp16"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
